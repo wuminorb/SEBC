@@ -19,6 +19,14 @@ select cpu_percent where category=ROLE and serviceName=hive
 
 ### Name all the roles that make up the Hive service
 
-
+- hive metastore server
+- WebHCat Server
+- gateway
+- hive server2
 
 ### What steps must be completed before integrating Cloudera Manager with Kerberos?
+
+- set up a kdc or ad
+- kdc configured to have non-zero ticket lifetime and renewal lifetime
+- openldap client libraries should be installed om cm server host
+- cloudera manager need an account that has permissions to create other accounts in the kdc
