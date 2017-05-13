@@ -1,3 +1,4 @@
+```
 [libdefaults]
 default_realm = wuminorb.cn
 dns_lookup_kdc = false
@@ -15,3 +16,4 @@ wuminorb.cn = {
 kdc = ip-172-31-6-110.us-west-2.compute.internal
 admin_server = ip-172-31-6-110.us-west-2.compute.internal
 }
+```
