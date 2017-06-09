@@ -1,2 +1,5 @@
 */admin@wuminorb.cn     *
 cloudera-scm@wuminorb.cn admilc
+
+[[ mfernest -- please note while it is a convention, not a technical requirement, to write a 
+   Kerberos realm in upper case, it is highly unusual to disregard it. ]]
